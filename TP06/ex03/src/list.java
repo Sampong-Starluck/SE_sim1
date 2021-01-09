@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.Objects;
 
 public class list {
     int id;
@@ -6,7 +7,6 @@ public class list {
     ArrayList<list> list = new ArrayList<>();
 
     public list() {
-
     }
 
     public list(int id, String condition) {
@@ -15,14 +15,18 @@ public class list {
     }
 
     public void addList(int id, String condition) {
-        for (int i = 0; i < 10; i++) {
-            list.add(i, new list(id, condition));
+        list.add(new list(id, condition));
+    }
+
+    public void displayList() {
+        for (list list2 : list) {
+            System.out.printf("Computer %d\t: Condition: %s\n", list2.id, list2.condition);
         }
     }
 
     public void listGood() {
         for (list list2 : list) {
-            if (condition == "good") {
+            if (list2.condition.equals("good")) {
                 System.out.printf("Computer %d\t: Condition: %s\n", list2.id, list2.condition);
             }
         }
@@ -30,10 +34,31 @@ public class list {
     
     public void listDamage() {
         for (list list2 : list) {
-            if (condition == "damage") {
+            if (list2.condition.equals("damage")) {
                 System.out.printf("Computer %d\t: Condition: %s\n", list2.id, list2.condition);
             }
         }
     }
+
+    public void markGood(int id) {
+        int index = 0;
+        for (list list2 : list) {
+            if (list2.id == id) {
+                list.set(index, new list(id, "good"));
+            } else {
+                index++;
+            }
+        }
+    }
     
+    public void markDamage(int id) {
+        int index = 0;
+        for (list list2 : list) {
+            if (list2.id == id) {
+                list.set(index, new list(id, "damage"));
+            } else {
+                index++;
+            }
+        }
+    }
 }
