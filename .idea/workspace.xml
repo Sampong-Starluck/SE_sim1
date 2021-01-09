@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="af7bb18b-a662-4ec6-a64a-75af24562df0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/TP06/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP06/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP06/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP06/ex03/TP06.iml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1mmAN6sLmwAwZKvu8RbSGdUuAyl" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/TP06" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="af7bb18b-a662-4ec6-a64a-75af24562df0" name="Default Changelist" comment="" />
+      <created>1610088350193</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1610088350193</updated>
+    </task>
+    <servers />
+  </component>
+</project>
