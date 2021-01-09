@@ -20,14 +20,12 @@ public  class student {
             list.add(i, new student(name[i], id[i]));
         }
     }
-    public void removeStudent(String name){
-        list.removeIf(student -> student.name.equals(name));
-    }
+    public void removeStudent(String name){ list.removeIf(student -> student.name.equals(name)); }
+    // for(student student: list { if (student.name == name){list.remove();}}
     public void updateInfo(int id){
         Scanner sc = new Scanner(System.in);
         int index = 0;
         for (student student:list) {
-
             if (student.id == id){
                 System.out.println("Enter a updated info: ");
                 System.out.print("Enter a new ID: ");
