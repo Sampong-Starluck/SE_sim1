@@ -37,7 +37,7 @@ public class store {
                     products.addProduct(index, name, number, price, amount);
                 }
                 case 3 -> {
-                    System.out.print("Enter the index that you want to remove: ");
+                    System.out.print("Enter the index(product's number) that you want to remove: ");
                     index = sc.nextInt();
                     products.removeIndex(index);
                 }

@@ -23,13 +23,7 @@ public class product {
         }
     }
 
-    public void removeIndex(int index) {
-        for (int i = 0; i < list.size(); i++) {
-            if (i == index - 1) {
-                list.remove(i);
-            }
-        }
-    }
+    public void removeIndex(int index) { list.removeIf(product -> product.productNumber == index); }
 
     public void updateProduct(int number) {
         int index = 0;
