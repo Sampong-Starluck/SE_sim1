@@ -10,7 +10,7 @@ public class store {
         product products = new product();
         Scanner sc = new Scanner(System.in);
         products.addProduct(3,name, number, price, amount);
-        while(true){
+        while (true) {
             System.out.println();
             System.out.println("1.List all products in shop.");
             System.out.println("2.Add new product to the list.");

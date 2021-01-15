@@ -39,14 +39,16 @@ public class product {
                 System.out.print("Enter product's new price: ");
                 double newPrice = sc.nextDouble();
                 list.set(index, new product(name, proNumber, newAmount, newPrice));
-            }else index++;
+            } else
+                index++;
         }
+        sc.close();
     }
 
     public void displayList() {
-        System.out.println("Number\t\tName\t\t\t\tPrice\t\tAmount in stock");
+        System.out.println("Number\t\t\t\tName\t\t\t\tPrice\t\tAmount in stock");
         for (product product : list) {
-            System.out.printf("%d\t\t\t%s\t\t\t%.2f\t\t\t1%d\n", product.productNumber, product.name, product.price, product.amount);
+            System.out.printf("%d\t\t\t\t%s\t\t\t%.2f\t\t%d\n", product.productNumber, product.name, product.price, product.amount);
         }
     }
 }
