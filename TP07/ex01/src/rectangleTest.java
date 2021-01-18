@@ -1,9 +1,8 @@
 import java.util.Scanner;
 
-public class rectagleTest {
-    private static Scanner sc;
-    public static void main(String[] args) throws Exception {
-        sc = new Scanner(System.in);
+public class rectangleTest {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
         int height, width;
         System.out.print("Enter the height of rectangle: ");
         height = sc.nextInt();
